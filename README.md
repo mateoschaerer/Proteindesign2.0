@@ -3,7 +3,7 @@
 2. [Usage](#usage)
 3. [Results](#results)
 
-# installation
+# Installation
 ## 0. Connect to EPFL WIFI
 If you're not on an EPFl network you must use a VPN
 
@@ -36,7 +36,7 @@ source setup.sh gasparusername
 ```
 When prompted to contiue type y/yes
 
-# usage
+# Usage
 ## 1. Upload a pdb file from local computer
 If you are connected to izar, close the connection:
 ```bash
@@ -83,9 +83,6 @@ For binder design make sure to also:
 2. Set the AS_contig variable to the target of the pdb onto which you're designing binders
 3. If you want specific residues to interact with the binder this can be specified as a list given in the hotspot_residues variable
 
-
-
-
 ## 3. Submit a job to IZAR
  ```bash
 sbatch run.sh
@@ -107,7 +104,17 @@ scp -r gasparusername@izar.epfl.ch:/home/gasparusername/Proteindesign2.0/Results
 ```
 To get the path, similar to pdb file right click on folder where you want the results to be downloaded and select "copy as path".
 
-## results
+# Only Alphafold runs
+To only use Alphafold upload your fasta files the AF_current_job directory. Make sure they **end with .fa and contain only 1 sequence** then submit the job as follows:
+
+```bash
+sbatch OnlyAF_new.sh
+
+```
+The results will appear in an Outputfolder-jobID.
+
+ 
+# Results
 ## Interpreting results
 **AF_output:**
 
