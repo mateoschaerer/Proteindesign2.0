@@ -1,0 +1,6 @@
+[2023-11-27 17:51:31,277][__main__][INFO] - Found GPU with device_name Tesla V100-PCIE-32GB. Will run RFdiffusion on Tesla V100-PCIE-32GB
+[2023-11-27 17:51:31,278][rfdiffusion.inference.model_runners][INFO] - Reading checkpoint from /home/schaerer/Working_pipeline/pipeline_code/RFdiffusion/rfdiffusion/inference/../../models/Base_ckpt.pt
+[2023-11-27 17:51:35,964][rfdiffusion.inference.model_runners][INFO] - Loading checkpoint.
+[2023-11-27 17:51:36,140][rfdiffusion.diffusion][INFO] - Using cached IGSO3.
+[2023-11-27 17:51:36,160][__main__][INFO] - Making design RFdiffusion_tmp_output/test_0
+[2023-11-27 17:51:36,160][__main__][INFO] - (cautious mode) Skipping this design because RFdiffusion_tmp_output/test_0.pdb already exists.

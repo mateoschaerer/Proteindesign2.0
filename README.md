@@ -1,1 +1,1 @@
-# Proteindesign2.0
+# Protein_design2

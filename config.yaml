@@ -1,0 +1,15 @@
+for_rest_of_script:
+  binder_mode: True
+  num_seq_per_target: 1
+  contigs_AS: [A20-100] # for binders this is the target residues
+inference:
+  design_name: "test_binder_final"     
+  input_pdb: "RFdiffusion_input/4n5t.pdb"
+  num_designs: 1
+
+contigmap:
+  contigs: [A20-100/0 100-100]
+
+ppi:
+  hotspot_res: null
+

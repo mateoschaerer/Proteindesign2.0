@@ -1,0 +1,106 @@
+[2023-12-02 19:39:29,584][__main__][INFO] - Found GPU with device_name Tesla V100-PCIE-32GB. Will run RFdiffusion on Tesla V100-PCIE-32GB
+[2023-12-02 19:39:29,585][rfdiffusion.inference.model_runners][INFO] - Reading checkpoint from /home/schaerer/Protein_design2/pipeline_code/RFdiffusion/rfdiffusion/inference/../../models/Complex_base_ckpt.pt
+[2023-12-02 19:39:33,611][rfdiffusion.inference.model_runners][INFO] - Loading checkpoint.
+[2023-12-02 19:39:33,747][rfdiffusion.diffusion][INFO] - Using cached IGSO3.
+[2023-12-02 19:39:33,768][__main__][INFO] - Making design RFdiffusion_tmp_output/test_binder_0
+[2023-12-02 19:39:33,773][rfdiffusion.inference.model_runners][INFO] - Using contig: ['A20-100/0 100-100']
+[2023-12-02 19:39:33,797][rfdiffusion.inference.model_runners][INFO] - Sequence init: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:39:37,726][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.10
+[2023-12-02 19:39:37,729][rfdiffusion.inference.model_runners][INFO] - Timestep 50, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:39:38,454][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.09
+[2023-12-02 19:39:38,457][rfdiffusion.inference.model_runners][INFO] - Timestep 49, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:39:39,175][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.09
+[2023-12-02 19:39:39,177][rfdiffusion.inference.model_runners][INFO] - Timestep 48, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:39:39,894][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.09
+[2023-12-02 19:39:39,896][rfdiffusion.inference.model_runners][INFO] - Timestep 47, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:39:40,613][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.09
+[2023-12-02 19:39:40,616][rfdiffusion.inference.model_runners][INFO] - Timestep 46, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:39:41,332][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.08
+[2023-12-02 19:39:41,334][rfdiffusion.inference.model_runners][INFO] - Timestep 45, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:39:42,050][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.09
+[2023-12-02 19:39:42,053][rfdiffusion.inference.model_runners][INFO] - Timestep 44, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:39:42,770][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.09
+[2023-12-02 19:39:42,772][rfdiffusion.inference.model_runners][INFO] - Timestep 43, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:39:43,490][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.08
+[2023-12-02 19:39:43,492][rfdiffusion.inference.model_runners][INFO] - Timestep 42, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:39:44,208][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.08
+[2023-12-02 19:39:44,211][rfdiffusion.inference.model_runners][INFO] - Timestep 41, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:39:44,928][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.08
+[2023-12-02 19:39:44,931][rfdiffusion.inference.model_runners][INFO] - Timestep 40, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:39:45,647][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.09
+[2023-12-02 19:39:45,650][rfdiffusion.inference.model_runners][INFO] - Timestep 39, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:39:46,366][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.09
+[2023-12-02 19:39:46,369][rfdiffusion.inference.model_runners][INFO] - Timestep 38, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:39:47,193][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.09
+[2023-12-02 19:39:47,195][rfdiffusion.inference.model_runners][INFO] - Timestep 37, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:39:47,916][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.09
+[2023-12-02 19:39:47,919][rfdiffusion.inference.model_runners][INFO] - Timestep 36, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:39:48,637][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.10
+[2023-12-02 19:39:48,639][rfdiffusion.inference.model_runners][INFO] - Timestep 35, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:39:49,355][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.09
+[2023-12-02 19:39:49,358][rfdiffusion.inference.model_runners][INFO] - Timestep 34, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:39:50,073][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.09
+[2023-12-02 19:39:50,076][rfdiffusion.inference.model_runners][INFO] - Timestep 33, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:39:50,794][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.09
+[2023-12-02 19:39:50,796][rfdiffusion.inference.model_runners][INFO] - Timestep 32, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:39:51,511][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.09
+[2023-12-02 19:39:51,514][rfdiffusion.inference.model_runners][INFO] - Timestep 31, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:39:52,229][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.09
+[2023-12-02 19:39:52,231][rfdiffusion.inference.model_runners][INFO] - Timestep 30, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:39:52,947][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.09
+[2023-12-02 19:39:52,949][rfdiffusion.inference.model_runners][INFO] - Timestep 29, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:39:53,664][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.08
+[2023-12-02 19:39:53,666][rfdiffusion.inference.model_runners][INFO] - Timestep 28, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:39:54,381][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.08
+[2023-12-02 19:39:54,383][rfdiffusion.inference.model_runners][INFO] - Timestep 27, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:39:55,099][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.08
+[2023-12-02 19:39:55,101][rfdiffusion.inference.model_runners][INFO] - Timestep 26, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:39:55,816][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.08
+[2023-12-02 19:39:55,819][rfdiffusion.inference.model_runners][INFO] - Timestep 25, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:39:56,533][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.08
+[2023-12-02 19:39:56,536][rfdiffusion.inference.model_runners][INFO] - Timestep 24, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:39:57,251][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.08
+[2023-12-02 19:39:57,253][rfdiffusion.inference.model_runners][INFO] - Timestep 23, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:39:57,966][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.08
+[2023-12-02 19:39:57,968][rfdiffusion.inference.model_runners][INFO] - Timestep 22, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:39:58,681][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.08
+[2023-12-02 19:39:58,684][rfdiffusion.inference.model_runners][INFO] - Timestep 21, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:39:59,396][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.08
+[2023-12-02 19:39:59,398][rfdiffusion.inference.model_runners][INFO] - Timestep 20, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:40:00,115][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.08
+[2023-12-02 19:40:00,118][rfdiffusion.inference.model_runners][INFO] - Timestep 19, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:40:00,835][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.08
+[2023-12-02 19:40:00,838][rfdiffusion.inference.model_runners][INFO] - Timestep 18, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:40:01,550][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.08
+[2023-12-02 19:40:01,553][rfdiffusion.inference.model_runners][INFO] - Timestep 17, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:40:02,263][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.08
+[2023-12-02 19:40:02,266][rfdiffusion.inference.model_runners][INFO] - Timestep 16, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:40:02,976][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.09
+[2023-12-02 19:40:02,979][rfdiffusion.inference.model_runners][INFO] - Timestep 15, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:40:03,688][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.08
+[2023-12-02 19:40:03,691][rfdiffusion.inference.model_runners][INFO] - Timestep 14, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:40:04,400][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.09
+[2023-12-02 19:40:04,402][rfdiffusion.inference.model_runners][INFO] - Timestep 13, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:40:05,111][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.08
+[2023-12-02 19:40:05,113][rfdiffusion.inference.model_runners][INFO] - Timestep 12, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:40:05,823][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.08
+[2023-12-02 19:40:05,825][rfdiffusion.inference.model_runners][INFO] - Timestep 11, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:40:06,534][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.08
+[2023-12-02 19:40:06,537][rfdiffusion.inference.model_runners][INFO] - Timestep 10, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:40:07,245][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.08
+[2023-12-02 19:40:07,247][rfdiffusion.inference.model_runners][INFO] - Timestep 9, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:40:07,955][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.08
+[2023-12-02 19:40:07,957][rfdiffusion.inference.model_runners][INFO] - Timestep 8, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:40:08,664][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.08
+[2023-12-02 19:40:08,667][rfdiffusion.inference.model_runners][INFO] - Timestep 7, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:40:09,373][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.08
+[2023-12-02 19:40:09,376][rfdiffusion.inference.model_runners][INFO] - Timestep 6, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:40:10,083][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.08
+[2023-12-02 19:40:10,086][rfdiffusion.inference.model_runners][INFO] - Timestep 5, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:40:10,794][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.08
+[2023-12-02 19:40:10,796][rfdiffusion.inference.model_runners][INFO] - Timestep 4, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:40:11,505][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.09
+[2023-12-02 19:40:11,508][rfdiffusion.inference.model_runners][INFO] - Timestep 3, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:40:12,215][rfdiffusion.inference.utils][INFO] - Sampled motif RMSD: 0.09
+[2023-12-02 19:40:12,218][rfdiffusion.inference.model_runners][INFO] - Timestep 2, input to next step: ----------------------------------------------------------------------------------------------------EGTQVHPRAPLLQILKVAGAQEEVFTVKEVMHYLGQYIMMKQLYDKQRQHIVHCHDDPLGELLEVGSFSVKNPSPLYEMLK
+[2023-12-02 19:40:15,445][__main__][INFO] - Finished design in 0.69 minutes
