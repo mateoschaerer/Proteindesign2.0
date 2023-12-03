@@ -111,7 +111,7 @@ scp -r gasparusername@izar.epfl.ch:/home/gasparusername/Proteindesign2.0/Results
 To get the path, similar to pdb file right click on folder where you want the results to be downloaded and select "copy as path".
 
 # Only Alphafold runs
-To only use Alphafold upload your fasta files the AF_current_job directory. Make sure they **end with .fa and contain only 1 sequence** then submit the job as follows:
+To only use Alphafold upload your fasta files the AF_current_job directory (you can upload as many as you need). Make sure they **end with .fa and contain only 1 sequence** then submit the job as follows:
 
 ```bash
 sbatch OnlyAF_new.sh
