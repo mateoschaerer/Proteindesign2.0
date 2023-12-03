@@ -1,7 +1,7 @@
 # Table of Contents
 1. [Installation](#Installation)
 2. [Usage](#Usage)
-3. [Only Alphafold](#Only Alphafold runs)
+3. [OOnly Alphafold runs](#Only Alphafold runs)
 4. [Results](#Results)
 
 # Installation
