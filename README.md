@@ -1,3 +1,9 @@
+## Table of Contents
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Results](#results)
+
+#installation
 # 0. Connect to EPFL WIFI
 If you're not on an EPFl network you must use a VPN
 
@@ -30,8 +36,8 @@ source setup.sh gasparusername
 ```
 When prompted to contiue type y/yes
 
-
-# 2. Upload a pdb file from local computer
+#usage
+# 1. Upload a pdb file from local computer
 If you are connected to izar, close the connection:
 ```bash
 exit
@@ -42,7 +48,7 @@ scp "path/to/pdb/file" gasparusername@izar.epfl.ch:/home/gasparusername/Proteind
 ```
 replace "path\to\pdb\location" with the path to the pdb file on your local computer. Make sure to keep the quotation marks! In windows this can be obtained by right clicking on the pdb file and selecting "copy as path" 
 
-# 3.Modify the config.yaml file:
+# 2.Modify the config.yaml file:
 ```bash
 vi config.yaml
 ```
@@ -80,7 +86,7 @@ For binder design make sure to also:
 
 
 
-# 4. Submit a job to IZAR
+# 3. Submit a job to IZAR
  ```bash
 sbatch run.sh
 ```
@@ -89,7 +95,7 @@ You can check up on it's progress using this command:
 squeue -u gasparusername
 ```
 
-# 5. Downloading results to local computer
+# 4. Download results to local computer
 If you are connected to izar run the following command:
 ```bash
 exit
@@ -101,5 +107,53 @@ scp -r gasparusername@izar.epfl.ch:/home/gasparusername/Proteindesign2.0/Results
 ```
 To get the path, similar to pdb file right click on folder where you want the results to be downloaded and select "copy as path".
 
+#results
+# Interpreting results
+
+The Results folder will contain the output of every job you have ran sorted by SlurmID (ex. output_PID-1513444). In the output of a specific job ID you'll find the AF_output directory. Here you'll find a list of directories of the following form (test_binder_final_0_sample=1). In this case it corresponds to design 0 of the project and sequence 1. The relevant PBD to use is the ranked_0.pdb file. The RFdiffusion directory contains the structure hallucinated by the RFdiffusion model. There are multiple files but the relevant ones are the .pdb files. The sequence of the particular desings can be found in the sequences directory. There is 1 Fasta file per design and all sequences can be found in the same file. Lastly the summary.txt shows the RMSD of each design and sequence.
+
+\```
+Results
+└── output_PID-1513444
+    ├── AF_output
+    │   ├── ld.so.cache
+    │   └── test_binder_final_0_sample=1
+    │       ├── features.pkl
+    │       ├── msas
+    │       │   ├── mgnify_hits.sto
+    │       │   ├── pdb_hits.hhr
+    │       │   ├── small_bfd_hits.sto
+    │       │   └── uniref90_hits.sto
+    │       ├── ranked_0.pdb
+    │       ├── ranked_1.pdb
+    │       ├── ranked_2.pdb
+    │       ├── ranked_3.pdb
+    │       ├── ranked_4.pdb
+    │       ├── ranking_debug.json
+    │       ├── relaxed_model_1_pred_0.pdb
+    │       ├── relax_metrics.json
+    │       ├── result_model_1_pred_0.pkl
+    │       ├── result_model_2_pred_0.pkl
+    │       ├── result_model_3_pred_0.pkl
+    │       ├── result_model_4_pred_0.pkl
+    │       ├── result_model_5_pred_0.pkl
+    │       ├── timings.json
+    │       ├── unrelaxed_model_1_pred_0.pdb
+    │       ├── unrelaxed_model_2_pred_0.pdb
+    │       ├── unrelaxed_model_3_pred_0.pdb
+    │       ├── unrelaxed_model_4_pred_0.pdb
+    │       └── unrelaxed_model_5_pred_0.pdb
+    ├── RFdiffusion_pdbs
+    │   ├── test_binder_final_0.pdb
+    │   ├── test_binder_final_0.trb
+    │   └── traj
+    │       ├── test_binder_final_0_pX0_traj.pdb
+    │       └── test_binder_final_0_Xt-1_traj.pdb
+    ├── sequences
+    │   └── test_binder_final_0.fa
+    └── summary.txt
+
+
+\```
 
 
