@@ -113,12 +113,15 @@ To get the path, similar to pdb file right click on folder where you want the re
 
 This directory encapsulates the outcomes of a specific computational job, uniquely identified by its SlurmID (e.g., output_PID-1513444).
 for example  test_binder_final_0_sample=1, corresponding to design 0 and sequence 1. Inside the test_binder_final_0_sample=1 directory, various PDB files are present (ranked_0.pdb, ranked_1.pdb, ..., ranked_4.pdb). If you need the AF output you'll need to use the ranked_0.pdb 
+
 **RFdiffusion_pdbs:**
 
 This directory holds PDB-related files for the RFdiffusion model. Use the .pdb files not the .traj files.
+
 **Sequences:**
 
 Located in the sequences directory you'll find a fasta file for every RFdiffusion design. In this fasta you'll have all the sequences that belong to the design.
+
 **Summary.txt:**
 
 This file contains RMSD values of every sequence created for the project.
