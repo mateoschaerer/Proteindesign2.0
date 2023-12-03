@@ -1,7 +1,8 @@
 # Table of Contents
-1. [Installation](#installation)
-2. [Usage](#usage)
-3. [Results](#results)
+1. [Installation](#Installation)
+2. [Usage](#Usage)
+3. [Only Alphafold](#Only Alphafold runs)
+4. [Results](#Results)
 
 # Installation
 ## 0. Connect to EPFL WIFI
