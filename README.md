@@ -117,7 +117,7 @@ To only use Alphafold upload your fasta files the AF_current_job directory. Make
 sbatch OnlyAF_new.sh
 
 ```
-The results will appear in an Outputfolder-jobID directory.
+The results will appear in a directory labeld Output-jobID.
 
  
 # Results
