@@ -1,4 +1,4 @@
-![Alt text](image_filename.png)
+![Alt text](git_pic.png)
 
 # Table of Contents
 1. [Installation](#installation)
