@@ -47,7 +47,7 @@ wget http://files.ipd.uw.edu/pub/RFdiffusion/f572d396fae9206628714fb2ce00f72e/Co
 # original structure prediction weights
 wget http://files.ipd.uw.edu/pub/RFdiffusion/1befcb9b28e2f778f53d47f18b7597fa/RF_structure_prediction_weights.pt
 
-cd /home/$user/Protein_design2/pipeline_code
+cd /home/$user/Proteindesign2.0/pipeline_code
 
 #install the SE3 enviroment
 conda env create -f SE3nv-cuda11.7.yml
@@ -65,7 +65,7 @@ python setup.py install
 cd ../.. # change into the root directory of the repository
 pip install -e . # install the rfdiffusion module from the root of the repository
 
-cd /home/$user/Protein_design2/pipeline_code
+cd /home/$user/Proteindesign2.0/pipeline_code
 #Protein MPNN -----------------------------------------------------------------------------------------
 git clone https://github.com/dauparas/ProteinMPNN.git
 
