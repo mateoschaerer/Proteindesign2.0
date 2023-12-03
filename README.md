@@ -3,7 +3,7 @@
 2. [Usage](#usage)
 3. [Results](#results)
 
-#installation
+##installation
 # 0. Connect to EPFL WIFI
 If you're not on an EPFl network you must use a VPN
 
@@ -36,7 +36,7 @@ source setup.sh gasparusername
 ```
 When prompted to contiue type y/yes
 
-#usage
+##usage
 # 1. Upload a pdb file from local computer
 If you are connected to izar, close the connection:
 ```bash
@@ -107,11 +107,26 @@ scp -r gasparusername@izar.epfl.ch:/home/gasparusername/Proteindesign2.0/Results
 ```
 To get the path, similar to pdb file right click on folder where you want the results to be downloaded and select "copy as path".
 
-#results
+##results
 # Interpreting results
+**AF_output:**
 
-The Results folder will contain the output of every job you have ran sorted by SlurmID (ex. output_PID-1513444). In the output of a specific job ID you'll find the AF_output directory. Here you'll find a list of directories of the following form (test_binder_final_0_sample=1). In this case it corresponds to design 0 of the project and sequence 1. The relevant PBD to use is the ranked_0.pdb file. The RFdiffusion directory contains the structure hallucinated by the RFdiffusion model. There are multiple files but the relevant ones are the .pdb files. The sequence of the particular desings can be found in the sequences directory. There is 1 Fasta file per design and all sequences can be found in the same file. Lastly the summary.txt shows the RMSD of each design and sequence.
+This directory encapsulates the outcomes of a specific computational job, uniquely identified by its SlurmID (e.g., output_PID-1513444).
+for example  test_binder_final_0_sample=1, corresponding to design 0 and sequence 1. Inside the test_binder_final_0_sample=1 directory, various PDB files are present (ranked_0.pdb, ranked_1.pdb, ..., ranked_4.pdb). If you need the AF output you'll need to use the ranked_0.pdb 
+**RFdiffusion_pdbs:**
 
+This directory holds PDB-related files for the RFdiffusion model. Use the .pdb files not the .traj files.
+**Sequences:**
+
+Located in the sequences directory you'll find a fasta file for every RFdiffusion design. In this fasta you'll have all the sequences that belong to the design.
+**Summary.txt:**
+
+This file contains RMSD values of every sequence created for the project.
+
+
+
+
+Results file tree for reference:
 ```
 Results
 └── output_PID-1513444
