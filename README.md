@@ -1,15 +1,15 @@
-## Table of Contents
+# Table of Contents
 1. [Installation](#installation)
 2. [Usage](#usage)
 3. [Results](#results)
 
-##installation
-# 0. Connect to EPFL WIFI
+# installation
+## 0. Connect to EPFL WIFI
 If you're not on an EPFl network you must use a VPN
 
 More info can be found here: https://www.epfl.ch/schools/sb/research/iphys/wp-content/uploads/2019/06/Welcome_IPHYS-IT.pdf
 
-# 1. Setup
+## 1. Setup
 
 1. Make sure you have an account on izar. Contact Sahand. Throughout, I will be refering to your username when I write <gaspar username>
 
@@ -28,7 +28,7 @@ Note that downloading the repository from the command line requires a different 
 
 https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic
 
-#2. Install
+## 2. Download models
 
 ```bash
 cd Proteindesign2.0
@@ -36,8 +36,8 @@ source setup.sh gasparusername
 ```
 When prompted to contiue type y/yes
 
-##usage
-# 1. Upload a pdb file from local computer
+# usage
+## 1. Upload a pdb file from local computer
 If you are connected to izar, close the connection:
 ```bash
 exit
@@ -48,7 +48,7 @@ scp "path/to/pdb/file" gasparusername@izar.epfl.ch:/home/gasparusername/Proteind
 ```
 replace "path\to\pdb\location" with the path to the pdb file on your local computer. Make sure to keep the quotation marks! In windows this can be obtained by right clicking on the pdb file and selecting "copy as path" 
 
-# 2.Modify the config.yaml file:
+## 2.Modify the config.yaml file:
 ```bash
 vi config.yaml
 ```
@@ -86,7 +86,7 @@ For binder design make sure to also:
 
 
 
-# 3. Submit a job to IZAR
+## 3. Submit a job to IZAR
  ```bash
 sbatch run.sh
 ```
@@ -95,7 +95,7 @@ You can check up on it's progress using this command:
 squeue -u gasparusername
 ```
 
-# 4. Download results to local computer
+## 4. Download results to local computer
 If you are connected to izar run the following command:
 ```bash
 exit
@@ -107,8 +107,8 @@ scp -r gasparusername@izar.epfl.ch:/home/gasparusername/Proteindesign2.0/Results
 ```
 To get the path, similar to pdb file right click on folder where you want the results to be downloaded and select "copy as path".
 
-##results
-# Interpreting results
+## results
+## Interpreting results
 **AF_output:**
 
 This directory encapsulates the outcomes of a specific computational job, uniquely identified by its SlurmID (e.g., output_PID-1513444).
