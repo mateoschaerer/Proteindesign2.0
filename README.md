@@ -1,5 +1,3 @@
-![Alt text](git_pic.png)
-
 # Table of Contents
 1. [Installation](#installation)
 2. [Usage](#usage)
@@ -10,6 +8,8 @@
 3. [Only Alphafold runs](#only-alphafold-runs)
 4. [Results](#results)
    - [Interpreting results](#interpreting-results)
+
+![Alt text](git_pic.png)
 
 # Installation
 ## 0. Connect to EPFL WIFI
