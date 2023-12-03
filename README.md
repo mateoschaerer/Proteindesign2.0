@@ -7,7 +7,7 @@
    - [Download results to the local computer](#4-download-results-to-local-computer)
 3. [Only Alphafold runs](#only-alphafold-runs)
 4. [Results](#results)
-   - [Interpreting results](#interpreting-results
+   - [Interpreting results](#interpreting-results)
 
 # Installation
 ## 0. Connect to EPFL WIFI
