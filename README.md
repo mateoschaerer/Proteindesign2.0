@@ -112,7 +112,7 @@ To get the path, similar to pdb file right click on folder where you want the re
 
 The Results folder will contain the output of every job you have ran sorted by SlurmID (ex. output_PID-1513444). In the output of a specific job ID you'll find the AF_output directory. Here you'll find a list of directories of the following form (test_binder_final_0_sample=1). In this case it corresponds to design 0 of the project and sequence 1. The relevant PBD to use is the ranked_0.pdb file. The RFdiffusion directory contains the structure hallucinated by the RFdiffusion model. There are multiple files but the relevant ones are the .pdb files. The sequence of the particular desings can be found in the sequences directory. There is 1 Fasta file per design and all sequences can be found in the same file. Lastly the summary.txt shows the RMSD of each design and sequence.
 
-\```
+```
 Results
 └── output_PID-1513444
     ├── AF_output
@@ -154,6 +154,6 @@ Results
     └── summary.txt
 
 
-\```
+```
 
 
