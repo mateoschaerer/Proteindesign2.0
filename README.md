@@ -1,8 +1,13 @@
 # Table of Contents
-1. [Installation](#Installation)
-2. [Usage](#Usage)
-3. [AF](#Only Alphafold runs)
-4. [Results](#Results)
+1. [Installation](#installation)
+2. [Usage](#usage)
+   - [Upload a PDB file from the local computer](#1-upload-a-pdb-file-from-local-computer)
+   - [Modify the config.yaml file](#2-modify-the-configyaml-file)
+   - [Submit a job to IZAR](#3-submit-a-job-to-izar)
+   - [Download results to the local computer](#4-download-results-to-local-computer)
+3. [Only Alphafold runs](#only-alphafold-runs)
+4. [Results](#results)
+   - [Interpreting results](#interpreting-results
 
 # Installation
 ## 0. Connect to EPFL WIFI
