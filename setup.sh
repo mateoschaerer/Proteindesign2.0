@@ -18,7 +18,7 @@ cd pipeline_code
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 echo -e "\e[91;1m│ Install conda to /home/$user/miniconda3 │\e[0m"
 bash Miniconda3-latest-Linux-x86_64.sh -b
-source ~/.bashrc
+source /home/$user/miniconda3/etc/profile.d/conda.sh
 
 # remove the install script
 rm -rf Miniconda3-latest-Linux-x86_64.sh
