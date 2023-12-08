@@ -44,6 +44,8 @@ source setup.sh gasparusername
 ```
 When prompted to contiue type y/yes
 
+--> make sure that your gasparusername is not capitalized !
+
 # Usage
 ## 1. Upload a pdb file from local computer
 If you are connected to izar, close the connection:
@@ -54,7 +56,7 @@ Then run the following command:
 ```bash
 scp "path/to/pdb/file" gasparusername@izar.epfl.ch:/home/gasparusername/Proteindesign2.0/RFdiffusion_input
 ```
-replace "path\to\pdb\location" with the path to the pdb file on your local computer. Make sure to keep the quotation marks! In windows this can be obtained by right clicking on the pdb file and selecting "copy as path" 
+replace "path\to\pdb\location" with the path to the pdb file on your local computer. Make sure to keep the quotation marks! In windows this can be obtained by right clicking on the pdb file and selecting "copy as path"
 
 ## 2.Modify the config.yaml file:
 ```bash
