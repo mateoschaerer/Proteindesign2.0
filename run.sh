@@ -1,9 +1,9 @@
 #!/bin/bash
 
-#SBATCH --time=10:00:00
+#SBATCH --time=72:00:00
 #SBATCH --nodes=1
-#SBATCH --gres=gpu:2
-#SBATCH --partition=debug
+#SBATCH --gres=gpu:4
+##SBATCH --partition=debug
 #SBATCH --mem=90000
 #SBATCH --ntasks=1
 
