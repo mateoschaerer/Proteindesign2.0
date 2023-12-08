@@ -54,7 +54,7 @@ exit
 ```
 Then run the following command:
 ```bash
-scp "path/to/pdb/file" gasparusername@izar.epfl.ch:/home/gasparusername/Proteindesign2.0/RFdiffusion_input
+scp "path/to/pdb/file" gasparusername@izar.epfl.ch:/home/gasparusername/Proteindesign2.0/pipeline_code/RFdiffusion_input
 ```
 replace "path\to\pdb\location" with the path to the pdb file on your local computer. Make sure to keep the quotation marks! In windows this can be obtained by right clicking on the pdb file and selecting "copy as path"
 
